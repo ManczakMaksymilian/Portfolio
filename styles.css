@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&family=Shippori+Antique+B1&display=swap");
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  background: rgb(240, 240, 240);
+  color: #102a42;
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.heading {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  padding: 1rem 1.5rem;
+  color: black;
+}
+
+.heading-2 {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+}
+
+.heading-3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+}
+
+.heading-4 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+}
+
+/* Projects */
+
+.p-heading {
+  position: absolute;
+  top: 50%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom-p-heading {
+  position: absolute;
+  top: 50%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+}
+
+.github-link {
+  text-decoration: none;
+  color: lightblue;
+}
+::selection {
+  background: lightsteelblue;
+}
+
+/* section */
+.section {
+  padding: 5rem 0;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+@media screen and (min-width: 992px) {
+  .section-center {
+    width: 95vw;
+  }
+}
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+/* Sidebar */
+
+.sidebar-toggle {
+  position: fixed;
+  top: 2rem;
+  right: 3rem;
+  font-size: 2rem;
+  background: transparent;
+  border-color: transparent;
+  color: black;
+  cursor: pointer;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+.close-btn {
+  font-size: 1.75rem;
+  background: transparent;
+  border-color: transparent;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  color: black;
+}
+
+.links a {
+  display: block;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  padding: 1rem 1.5rem;
+  color: black;
+  transition: all 0.3s linear;
+}
+.links a:hover {
+  background: lightsteelblue;
+  color: black;
+  padding-left: 1.75rem;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  row-gap: 1rem;
+  transition: all 0.3s linear;
+  transform: translate(-100%);
+}
+.show-sidebar {
+  transform: translate(0);
+}
+@media screen and (min-width: 676px) {
+  .sidebar {
+    width: 240px;
+  }
+}
+
+@media only screen and (max-width: 1346.3px) {
+  .sidebar {
+    width: 150px;
+  }
+
+  .heading {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    padding: 1rem 1.5rem;
+    color: black;
+  }
+
+  .heading-2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+  }
+
+  .heading-3 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+  }
+
+  .heading-4 {
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+  }
+}
