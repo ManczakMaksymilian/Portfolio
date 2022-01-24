@@ -59,22 +59,41 @@ a {
 
 .p-heading {
   position: absolute;
-  top: 50%;
-  left: 42%;
+  top: 35%;
+  left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 2.5rem;
 }
 
 .bottom-p-heading {
   position: absolute;
-  top: 50%;
-  left: 42%;
+  top: 40%;
+  left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 2rem;
 }
 
 .github-link {
   text-decoration: none;
-  color: lightblue;
+  color: lightslategray;
+  cursor: pointer;
 }
+
+.projects {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+}
+
+.image-link {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 ::selection {
   background: lightsteelblue;
 }
