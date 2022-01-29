@@ -36,8 +36,13 @@
 
     <a href="contact.html" class="heading">Contact Me</a>
     <div class="contact-content">
-      <h2 class="contact-heading">You can contact me by filling out the form below </h2>
-      <form>
+      <h2 class="contact-heading">
+        You can contact me by filling out the form below
+      </h2>
+      <form
+        action="https://formsubmit.co/maksymilianmanczak@gmail.com"
+        method="POST"
+      >
         <input
           id="contact-name"
           name="name"
@@ -57,13 +62,15 @@
           name="text"
           class="feedback-input"
           placeholder="Comment"
+          rows="4"
         ></textarea>
-        <input type="checkbox" onchange="ifChecked()" id='checkbox'>
-        <label class="contact-label">Do you want to sign-up to my newsletter?</label>
+        <input type="checkbox" onchange="ifChecked()" id="checkbox" />
+        <label class="contact-label"
+          >Do you want to sign-up to my newsletter?</label
+        >
         <button class="submit-btn" id="contact-btn">SUBMIT</button>
       </form>
-      <script src="app.js"></script>
-    </body>
     </div>
-    
+  </body>
+  <script src="app.js"></script>
 </html>
