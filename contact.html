@@ -39,23 +39,28 @@
       <h2 class="contact-heading">You can contact me by filling out the form below </h2>
       <form>
         <input
+          id="contact-name"
           name="name"
           type="text"
           class="feedback-input"
           placeholder="Name"
         />
         <input
+          id="contact-email"
           name="email"
           type="email"
           class="feedback-input"
           placeholder="Email"
         />
         <textarea
+          id="contact-text"
           name="text"
           class="feedback-input"
           placeholder="Comment"
         ></textarea>
-        <input type="submit" value="SUBMIT" />
+        <input type="checkbox" onchange="ifChecked()" id='checkbox'>
+        <label class="contact-label">Do you want to sign-up to my newsletter?</label>
+        <button class="submit-btn" id="contact-btn">SUBMIT</button>
       </form>
       <script src="app.js"></script>
     </body>
