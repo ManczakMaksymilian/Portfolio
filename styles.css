@@ -195,6 +195,10 @@ textarea {
   text-align: center;
 }
 
+.scs-msg {
+  font-size: 1.5rem;
+}
+
 /* section */
 .section {
   padding: 5rem 0;
