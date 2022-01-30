@@ -43,6 +43,12 @@
         action="https://formsubmit.co/9ab0eaf767899b027e80a33d9f30fde4"
         method="POST"
       >
+        <!-- Honeypot -->
+        <input type="text" name="_honey" style="display: none" />
+
+        <!-- Disable Captcha -->
+        <input type="hidden" name="_captcha" value="false" />
+
         <input
           id="contact-name"
           name="name"
