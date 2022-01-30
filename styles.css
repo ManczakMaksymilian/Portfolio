@@ -195,14 +195,6 @@ textarea {
   text-align: center;
 }
 
-.contact-label {
-  font-size: 1rem;
-}
-
-#checkbox {
-  cursor: pointer;
-}
-
 /* section */
 .section {
   padding: 5rem 0;
