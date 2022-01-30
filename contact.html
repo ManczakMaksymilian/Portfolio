@@ -54,29 +54,38 @@
           name="_next"
           value="https://manczakmaksymilian.github.io/Portfolio/success.html"
         />
+        <label for="name" class="contact-name"
+          ><span style="color: red">*</span> Name</label
+        >
         <input
           id="contact-name"
           name="name"
           type="text"
           class="feedback-input"
-          placeholder="Name"
+          placeholder="James Smith"
           required
         />
+        <label for="email" class="contact-email"
+          ><span style="color: red">*</span> E-Mail</label
+        >
         <input
           id="contact-email"
           name="email"
           type="email"
           class="feedback-input"
-          placeholder="Email"
           required
+          placeholder="example@example.com"
         />
+        <label for="email" class="contact-email">Your Text</label>
         <textarea
           id="contact-text"
           name="text"
           class="feedback-input"
-          placeholder="Your Message"
           rows="4"
         ></textarea>
+        <label for="required"
+          ><span style="color: red">*</span> - Required</label
+        >
         <button class="submit-btn" id="contact-btn">SUBMIT</button>
       </form>
     </div>
