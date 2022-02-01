@@ -10,3 +10,10 @@ toggleBtn.addEventListener("click", function () {
 closeBtn.addEventListener("click", function () {
   sidebar.classList.remove("show-sidebar");
 });
+
+const checkbox = document.getElementById("mode-checkbox");
+
+checkbox.addEventListener("change", () => {
+  //change the theme of the website
+  document.body.classList.toggle("dark");
+});

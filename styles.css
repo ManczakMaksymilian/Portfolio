@@ -13,6 +13,52 @@ body {
   color: #102a42;
   line-height: 1.5;
   font-size: 0.875rem;
+  transition: background 0.15s linear;
+}
+
+body.dark {
+  background-color: #292c35;
+}
+
+body.dark h2 {
+  color: #fff;
+}
+
+body.dark h3 {
+  color: #fff;
+}
+
+body.dark h4 {
+  color: #fff;
+}
+
+body.dark .heading {
+  color: #fff;
+}
+
+body.dark button {
+  color: #fff;
+}
+
+body.dark aside {
+  background-color: #22252b;
+}
+
+body.dark .li-link {
+  color: #fff;
+}
+
+body.dark .submit-btn {
+  background-color: #fff;
+  color: black;
+}
+
+body.dark label {
+  color: white;
+}
+
+body.dark .feedback-input {
+  border-color: white;
 }
 
 ul {
@@ -25,6 +71,8 @@ a {
 .content {
   text-align: center;
 }
+
+/* index */
 
 .heading {
   text-align: center;
@@ -127,8 +175,50 @@ a {
 }
 
 /* dark mode */
-@media (prefers-color-scheme: dark) {
-  /* TODO */
+.mode-label {
+  background-color: #111;
+  display: flex;
+  border-radius: 50px;
+  height: 26px;
+  width: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 69rem;
+  left: 145rem;
+}
+
+.mode-checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.ball {
+  background-color: #fff;
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+.mode-checkbox:checked + .mode-label .ball {
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: #f1c40f;
+}
+
+.fa-sun {
+  color: #f39c12;
 }
 
 /* contact */
