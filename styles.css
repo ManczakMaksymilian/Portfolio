@@ -61,6 +61,10 @@ body.dark .feedback-input {
   border-color: white;
 }
 
+body.dark .scs-msg {
+  color: white;
+}
+
 ul {
   list-style-type: none;
 }
