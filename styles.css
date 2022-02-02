@@ -59,6 +59,7 @@ body.dark label {
 
 body.dark .feedback-input {
   border-color: white;
+  color: white;
 }
 
 body.dark .scs-msg {
@@ -189,12 +190,13 @@ a {
   justify-content: space-between;
   padding: 5px;
   position: relative;
+  cursor: pointer;
 }
 
 .theme-toggle {
-  position: fixed;
-  top: 69rem;
-  left: 145rem;
+  position: absolute;
+  top: 95%;
+  left: 96%;
 }
 
 .mode-checkbox {
