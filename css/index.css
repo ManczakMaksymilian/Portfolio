@@ -1,0 +1,114 @@
+/* Styling when screen size is less than ... */
+
+@media (max-width: 1400px) {
+  .heading-4 {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .heading {
+    font-size: 2rem;
+  }
+
+  .heading-2 {
+    font-size: 1.75rem;
+  }
+
+  .heading-3 {
+    font-size: 1.25rem;
+  }
+
+  .heading-4 {
+    font-size: 0.75rem;
+  }
+
+  .theme-toggle {
+    position: fixed;
+    top: 95%;
+    left: 94%;
+  }
+}
+@media (max-width: 1150px) {
+  .heading-2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .heading-2 {
+    font-size: 1.25rem;
+  }
+  .heading-3 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .heading {
+    font-size: 1.75rem;
+  }
+
+  .heading-2 {
+    font-size: 1.5rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 32.5%;
+  }
+
+  .heading-3 {
+    font-size: 1.25rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 47.5%;
+  }
+
+  .heading-4 {
+    font-size: 0.75rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 62.5%;
+  }
+}
+
+@media (max-width: 430px) {
+  .theme-toggle {
+    position: fixed;
+    top: 95%;
+    left: 85%;
+  }
+  .heading {
+    font-size: 1.75rem;
+  }
+
+  .heading-2 {
+    font-size: 1.5rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 32.5%;
+  }
+
+  .heading-3 {
+    font-size: 1.25rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 47.5%;
+  }
+
+  .heading-4 {
+    font-size: 0.75rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 62.5%;
+  }
+}
+
+@media (max-width: 375px) {
+  /* screen too small */
+}
