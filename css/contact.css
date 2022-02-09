@@ -1,0 +1,15 @@
+@media (max-width: 1300px) {
+  .theme-toggle {
+    position: fixed;
+    top: 95%;
+    left: 94%;
+  }
+}
+
+@media (max-width: 430px) {
+  .theme-toggle {
+    position: fixed;
+    top: 95%;
+    left: 85%;
+  }
+}

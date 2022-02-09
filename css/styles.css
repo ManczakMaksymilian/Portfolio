@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
 
 *,
 ::after,
@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Arvo', serif;
+  font-family: "Arvo", serif;
   background: rgb(240, 240, 240);
   color: #102a42;
   line-height: 1.5;
@@ -85,7 +85,7 @@ html {
 }
 
 html::-webkit-scrollbar {
-  width: .9vw;
+  width: 0.9vw;
 }
 
 html::-webkit-scrollbar-thumb {
@@ -99,7 +99,6 @@ html::-webkit-scrollbar-thumb:hover {
 html::-webkit-scrollbar-track {
   background-color: #5555;
 }
-
 
 /* index */
 
@@ -252,7 +251,6 @@ html::-webkit-scrollbar-track {
   transform: translate(-50%, -50%);
 }
 
-
 .feedback-input {
   color: black;
   font-family: Helvetica, Arial, sans-serif;
@@ -284,7 +282,6 @@ form {
   max-width: 420px;
   margin: 50px auto;
 }
-
 
 .submit-btn {
   position: absolute;
@@ -389,11 +386,8 @@ main {
   row-gap: 1rem;
   transition: all 0.3s linear;
   transform: translate(-100%);
-
   z-index: 1;
-
   box-shadow: 0 1px 1px 0 rgb(157, 170, 182), 0 1px 8px 0 rgb(157, 170, 182);
-
 }
 .show-sidebar {
   transform: translate(0);
