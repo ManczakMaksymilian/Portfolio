@@ -1,0 +1,92 @@
+@media (max-width: 1400px) {
+  .p-heading {
+    font-size: 2rem;
+  }
+  .projects {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .theme-toggle {
+    position: fixed;
+    top: 95%;
+    left: 94%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .weather-image {
+    width: 500px;
+    height: 393px;
+  }
+  .image-link {
+    top: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .p-heading {
+    font-size: 1.5rem;
+  }
+  .projects {
+    font-size: 1rem;
+  }
+  .weather-description {
+    font-size: 1rem;
+  }
+  .weather-image {
+    width: 350px;
+    height: 275px;
+  }
+  .bottom {
+    font-size: 0.7rem;
+  }
+  .theme-toggle {
+    left: 86.5%;
+  }
+}
+
+@media (max-height: 840px) {
+  .p-heading {
+    font-size: 2rem;
+  }
+  .projects {
+    font-size: 1.5rem;
+  }
+  .weather-description {
+    font-size: 1.05rem;
+    left: 50%;
+    top: 50%;
+  }
+  .bottom {
+    font-size: 0.8rem;
+    top: 120%;
+    left: 50%;
+  }
+}
+
+@media (max-height: 715px) {
+  .p-heading {
+    font-size: 1.7rem;
+  }
+  .projects {
+    font-size: 1.2rem;
+  }
+  .weather-description {
+    font-size: 0.9rem;
+    top: 47%;
+  }
+}
+
+@media (max-height: 655px) {
+  .image-link {
+    top: 90%;
+  }
+  .projects {
+    top: 35%;
+  }
+  .weather-description {
+   top: 41.5%;
+  }
+}

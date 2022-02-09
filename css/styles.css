@@ -147,14 +147,6 @@ html::-webkit-scrollbar-track {
   font-size: 2.5rem;
 }
 
-.bottom-p-heading {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2rem;
-}
-
 .github-link {
   text-decoration: none;
   color: lightslategray;
@@ -163,7 +155,7 @@ html::-webkit-scrollbar-track {
 
 .projects {
   position: absolute;
-  top: 45%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2rem;
@@ -171,7 +163,7 @@ html::-webkit-scrollbar-track {
 
 .image-link {
   position: absolute;
-  top: 80%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -402,5 +394,21 @@ main {
   .sidebar {
     width: 240px;
   }
+
 }
 
+@media (max-width: 1200px) {
+  .sidebar {
+    width: 170px;
+  }
+}
+
+@media (max-width: 700px) {
+  .sidebar {
+    width: 150px;
+  }
+}
+
+@media (max-width: 600px) {
+
+}
