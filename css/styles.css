@@ -389,6 +389,11 @@ main {
   row-gap: 1rem;
   transition: all 0.3s linear;
   transform: translate(-100%);
+
+  z-index: 1;
+
+  box-shadow: 0 1px 1px 0 rgb(157, 170, 182), 0 1px 8px 0 rgb(157, 170, 182);
+
 }
 .show-sidebar {
   transform: translate(0);
@@ -397,7 +402,6 @@ main {
   .sidebar {
     width: 240px;
   }
-
 }
 
 @media (max-width: 1200px) {
@@ -413,5 +417,7 @@ main {
 }
 
 @media (max-width: 600px) {
-
+  .heading {
+    font-size: 2rem;
+  }
 }
