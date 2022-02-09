@@ -109,6 +109,14 @@
   }
 }
 
-@media (max-width: 375px) {
-  /* screen too small */
+@media (max-height: 950px) {
+  .heading-2 {
+    top: 35%;
+  }
+  .heading-3 {
+    top: 50%;
+  }
+  .heading-4 {
+    top: 65%;
+  }
 }
