@@ -18,3 +18,9 @@ checkbox.addEventListener("change", () => {
   // Change the theme of the website
   document.body.classList.toggle("dark");
 });
+
+if (screen.width < 380) {
+  while (true) {
+    alert("Screen size to small to use this website!")
+  }
+}
