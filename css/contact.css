@@ -13,3 +13,13 @@
     left: 85%;
   }
 }
+
+@media (max-height: 650px) {
+  .contact-content {
+    top: 60%;
+  }
+
+  .contact-heading {
+    font-size: 1.2rem;
+  }
+}
