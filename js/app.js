@@ -19,7 +19,7 @@ checkbox.addEventListener("change", () => {
   document.body.classList.toggle("dark");
 });
 
-if (screen.width < 380) {
+if (screen.width < 380 && screen.height < 500) {
   while (true) {
     alert("Screen size to small to use this website!")
   }
