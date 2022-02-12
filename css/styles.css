@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Arvo", serif;
   background: rgb(240, 240, 240);
@@ -73,6 +74,7 @@ body.dark .sidebar {
 ul {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
 }
@@ -326,11 +328,13 @@ form {
   margin: 0 auto;
   max-width: 1170px;
 }
+
 @media screen and (min-width: 992px) {
   .section-center {
     width: 95vw;
   }
 }
+
 main {
   min-height: 100vh;
   display: grid;
@@ -356,6 +360,7 @@ main {
   align-items: center;
   padding: 1rem 1.5rem;
 }
+
 .close-btn {
   font-size: 1.75rem;
   background: transparent;
@@ -394,9 +399,11 @@ main {
   z-index: 1;
   box-shadow: 0 1px 1px 0 rgb(157, 170, 182), 0 1px 8px 0 rgb(157, 170, 182);
 }
+
 .show-sidebar {
   transform: translate(0);
 }
+
 @media screen and (min-width: 676px) {
   .sidebar {
     width: 240px;
