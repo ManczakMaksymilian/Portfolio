@@ -191,8 +191,17 @@ html::-webkit-scrollbar-track {
 
 .bottom {
   position: absolute;
-  top: 115%;
+  top: 119%;
   left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.invisible {
+  height: 20px;
+  width: 100px;
+  position: absolute;
+  left: 50%;
+  top: 120%;
   transform: translate(-50%, -50%);
 }
 
