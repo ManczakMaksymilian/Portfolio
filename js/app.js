@@ -21,6 +21,6 @@ checkbox.addEventListener("change", () => {
 
 if (screen.width < 380 && screen.height < 500) {
   while (true) {
-    alert("Screen size to small to use this website!")
+    alert("Screen size to small to use this website! Please switch to a bigger one!")
   }
 }
